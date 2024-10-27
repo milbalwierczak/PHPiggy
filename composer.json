@@ -3,7 +3,9 @@
     "description": "A PHP application for trakcing expenses",
     "type": "project",
     "license": "proprietary",
-    "require": {},
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
     "autoload": {
         "psr-4": {
             "Framework\\": "src/Framework",
